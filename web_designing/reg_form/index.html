@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <h1 align=center>Registration Form</h1>
+  <form>
+    <fieldset>
+      <legend>Personal details</legend>
+      <table border="0" height=300>
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="first_name" placeholder="ie. John"></td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td><input type="text" name="last_name" placeholder="ie. Doe"></td>
+        </tr>
+        <tr>
+          <td>DOB:</td>
+          <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <label><input type="radio" name="gender" value="male">Male</label>
+            <label><input type="radio" name="gender" value="female">Female</label>
+            <label><input type="radio" name="gender" value="unknown">Rather not to say</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Contact:</td>
+          <td><input type="number" name="contact" placeholder="ie. 9812012345"></td>
+        </tr>
+        <tr>
+          <td>Upload Photo:</td>
+          <td><input type="file" name="photo" accept="image/*"></td>
+        </tr>
+        <tr>
+          <td>Upload Signature:</td>
+          <td><input type="file" name="sign" accept="image/*"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Qualifications details</legend>
+      <table>
+        <tr>
+          <td>Last qualification:</td>
+          <td>
+            <select>
+              <option value="bca">BCA</option>
+              <option value="bsc">BSc</option>
+              <option value="ba">BA</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Percentage:</td>
+          <td><input type="number" name="percentage" placeholder="ie. 80">%</td>
+        </tr>
+        <tr>
+          <td>12th Percentage:</td>
+          <td><input type="number" name="tw_percentage" placeholder="ie. 80">%</td>
+        </tr>
+        <tr>
+          <td>10th Percentage:</td>
+          <td><input type="number" name="mat_percentage" placeholder="ie. 80">%</td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Extras</legend>
+      <table>
+        <tr>
+          <td>Interesets:</td>
+          <td>
+            <label><input type="checkbox" name="interest" value="sports">Sports</label>
+            <label><input type="checkbox" name="interest" value="music">Music</label>
+            <label><input type="checkbox" name="interest" value="dance">Dance</label>
+            <label><input type="checkbox" name="interest" value="others">Others</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Write your brief intro:</td>
+          <td><textarea rows="5" cols="20" minlength="100" placeholder="Min 100 characters required."></textarea></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Submission:</legend>
+      <table>
+        <tr>
+          <td><input type="submit" value="Register"></td>
+          <td><input type="reset" value="Erase"></td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+</body>
+
+</html>
