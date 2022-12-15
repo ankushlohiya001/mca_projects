@@ -1,0 +1,39 @@
+.flexy{
+  display: flex;
+}
+
+.flexy_sb{
+  justify-content: space-between;
+}
+
+body{
+  justify-content: center;
+}
+
+.boxy{
+  background: linear-gradient(to bottom right, #bbd, #bdb);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.btn{
+  width: 100%;
+  padding: 0.2em 0.8em;
+  cursor: pointer;
+}
+
+.round{
+  border-radius: 99em;
+}
+
+.no_border{
+  border: none;
+}
+
+.move_right{
+  text-align: right;
+}
+
+.some_pad{
+  padding: 0 1em;
+}
