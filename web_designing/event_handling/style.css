@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+button{
+  position: absolute;
+}
