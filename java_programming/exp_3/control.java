@@ -1,4 +1,8 @@
 public class control {
+    public static void userDefinedMethods() {
+        System.out.println("User Defined Funtion");
+    }
+
     public static void main(String[] args) {
         int i = 1;
         int j = 10;
@@ -65,5 +69,6 @@ public class control {
             }
             System.out.println("Continue Statement");
         }
+        userDefinedMethods();
     }
 }
