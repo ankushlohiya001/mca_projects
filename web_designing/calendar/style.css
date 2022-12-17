@@ -1,0 +1,22 @@
+table{
+  border: 2px solid #000;
+  margin-top: 1em;
+}
+
+th{
+  border-bottom: 2px solid #222;
+}
+
+.sat{
+  color: orange;
+  border-color: orange;
+}
+
+.sun{
+  color: red;
+  border-color: red;
+}
+
+.rb{
+  border-bottom: 2px solid blue;
+}
