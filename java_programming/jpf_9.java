@@ -7,7 +7,7 @@ public class jpf_9 {
       System.out.println("throwing error!!");
       throw e;
     }finally{
-      System.out.println("will always run.");
+      System.out.println("'Finally' will always run.");
     }
   }
 }
