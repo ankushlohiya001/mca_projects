@@ -13,9 +13,9 @@ class Human extends Monkey{
 public class jpf_5 {
   public static void main(String[] args) {
     Monkey m = new Monkey();
-    System.out.println("Monkey on asking walk: ");
+    System.out.println("Monkey walk on asking: ");
     m.walk();
-    System.out.println("Monkey on asking walk: ");
+    System.out.println("Human walk on asking: ");
     Human h = new Human();
     h.walk();
   }
