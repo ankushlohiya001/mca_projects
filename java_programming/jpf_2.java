@@ -15,6 +15,7 @@ public class jpf_2 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a num: ");
     int num = sc.nextInt();
+    sc.close();
     int rev_num = reverse(num);
     boolean isP = num == rev_num;
     System.out.println("Given num   : "+num);
